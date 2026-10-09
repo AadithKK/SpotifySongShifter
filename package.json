@@ -1,0 +1,28 @@
+{
+  "name": "music-inbox",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Turn music screenshots into a Spotify playlist",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.1",
+    "@tesseract.js-data/ara": "^1.0.0",
+    "@tesseract.js-data/chi_sim": "^1.0.0",
+    "@tesseract.js-data/chi_tra": "^1.0.0",
+    "@tesseract.js-data/eng": "^1.0.0",
+    "@tesseract.js-data/fra": "^1.0.0",
+    "@tesseract.js-data/jpn": "^1.0.0",
+    "@tesseract.js-data/kor": "^1.0.0",
+    "@tesseract.js-data/por": "^1.0.0",
+    "image-size": "^2.0.4",
+    "sharp": "^0.35.5",
+    "tesseract.js": "^7.0.0"
+  }
+}
